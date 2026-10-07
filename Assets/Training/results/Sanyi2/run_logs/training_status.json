@@ -1,0 +1,29 @@
+{
+    "AgentBehavior": {
+        "checkpoints": [
+            {
+                "steps": 2912,
+                "file_path": "results\\Sanyi2\\AgentBehavior\\AgentBehavior-2912.onnx",
+                "reward": -3.012795150279999,
+                "creation_time": 1765035555.3089085,
+                "auxillary_file_paths": [
+                    "results\\Sanyi2\\AgentBehavior\\AgentBehavior-2912.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2912,
+            "file_path": "results\\Sanyi2\\AgentBehavior.onnx",
+            "reward": -3.012795150279999,
+            "creation_time": 1765035555.3089085,
+            "auxillary_file_paths": [
+                "results\\Sanyi2\\AgentBehavior\\AgentBehavior-2912.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.0+cpu"
+    }
+}

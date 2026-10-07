@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1765908554",
+        "python_version": "3.7.16 (default, Jan 17 2023, 16:06:28) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\csige\\miniconda3_1\\envs\\unity\\Scripts\\mlagents-learn AgentBehavior.yaml --run-id=RUN1.51",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1765908617"
+    },
+    "total": 62.43597700000001,
+    "count": 1,
+    "self": 0.027332600000008256,
+    "children": {
+        "run_training.setup": {
+            "total": 0.21994430000000031,
+            "count": 1,
+            "self": 0.21994430000000031
+        },
+        "TrainerController.start_learning": {
+            "total": 62.1887001,
+            "count": 1,
+            "self": 0.00040399999999607417,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.18820650000001,
+                    "count": 1,
+                    "self": 62.18820650000001
+                },
+                "TrainerController._save_models": {
+                    "total": 8.959999999547108e-05,
+                    "count": 1,
+                    "self": 8.959999999547108e-05
+                }
+            }
+        }
+    }
+}

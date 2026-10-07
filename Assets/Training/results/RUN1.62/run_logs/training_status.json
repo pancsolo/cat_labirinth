@@ -1,0 +1,29 @@
+{
+    "AgentBehavior": {
+        "checkpoints": [
+            {
+                "steps": 108464,
+                "file_path": "results\\RUN1.62\\AgentBehavior\\AgentBehavior-108464.onnx",
+                "reward": 10.268918991088867,
+                "creation_time": 1765912953.3305438,
+                "auxillary_file_paths": [
+                    "results\\RUN1.62\\AgentBehavior\\AgentBehavior-108464.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 108464,
+            "file_path": "results\\RUN1.62\\AgentBehavior.onnx",
+            "reward": 10.268918991088867,
+            "creation_time": 1765912953.3305438,
+            "auxillary_file_paths": [
+                "results\\RUN1.62\\AgentBehavior\\AgentBehavior-108464.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

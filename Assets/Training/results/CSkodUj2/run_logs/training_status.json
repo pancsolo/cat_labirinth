@@ -1,0 +1,29 @@
+{
+    "AgentBehavior": {
+        "checkpoints": [
+            {
+                "steps": 219456,
+                "file_path": "results\\CSkodUj2\\AgentBehavior\\AgentBehavior-219456.onnx",
+                "reward": 14.461263067192501,
+                "creation_time": 1765158768.4081278,
+                "auxillary_file_paths": [
+                    "results\\CSkodUj2\\AgentBehavior\\AgentBehavior-219456.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 219456,
+            "file_path": "results\\CSkodUj2\\AgentBehavior.onnx",
+            "reward": 14.461263067192501,
+            "creation_time": 1765158768.4081278,
+            "auxillary_file_paths": [
+                "results\\CSkodUj2\\AgentBehavior\\AgentBehavior-219456.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.0+cpu"
+    }
+}

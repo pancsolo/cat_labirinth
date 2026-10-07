@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1764366005",
+        "python_version": "3.7.16 (default, Jan 17 2023, 16:06:28) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\ANACONDA\\envs\\py37\\Scripts\\mlagents-learn AgentBehavior.yaml --run-id=Macska11",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1764366037"
+    },
+    "total": 32.5296655,
+    "count": 1,
+    "self": 0.019594300000001397,
+    "children": {
+        "run_training.setup": {
+            "total": 0.11638709999999985,
+            "count": 1,
+            "self": 0.11638709999999985
+        },
+        "TrainerController.start_learning": {
+            "total": 32.3936841,
+            "count": 1,
+            "self": 0.0017523000000068123,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 32.391869299999996,
+                    "count": 1,
+                    "self": 32.391869299999996
+                },
+                "trainer_threads": {
+                    "total": 1.2200000000461841e-05,
+                    "count": 1,
+                    "self": 1.2200000000461841e-05
+                },
+                "TrainerController._save_models": {
+                    "total": 5.029999999806023e-05,
+                    "count": 1,
+                    "self": 5.029999999806023e-05
+                }
+            }
+        }
+    }
+}

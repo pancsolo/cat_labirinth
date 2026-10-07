@@ -1,0 +1,47 @@
+{
+    "AgentBehavior": {
+        "checkpoints": [
+            {
+                "steps": 499976,
+                "file_path": "results\\Sanyi6\\AgentBehavior\\AgentBehavior-499976.onnx",
+                "reward": 0.8241159960075661,
+                "creation_time": 1765042409.1440485,
+                "auxillary_file_paths": [
+                    "results\\Sanyi6\\AgentBehavior\\AgentBehavior-499976.pt"
+                ]
+            },
+            {
+                "steps": 999901,
+                "file_path": "results\\Sanyi6\\AgentBehavior\\AgentBehavior-999901.onnx",
+                "reward": 0.8104539034380154,
+                "creation_time": 1765043748.4516277,
+                "auxillary_file_paths": [
+                    "results\\Sanyi6\\AgentBehavior\\AgentBehavior-999901.pt"
+                ]
+            },
+            {
+                "steps": 1000029,
+                "file_path": "results\\Sanyi6\\AgentBehavior\\AgentBehavior-1000029.onnx",
+                "reward": 0.8104539034380154,
+                "creation_time": 1765043748.5600054,
+                "auxillary_file_paths": [
+                    "results\\Sanyi6\\AgentBehavior\\AgentBehavior-1000029.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000029,
+            "file_path": "results\\Sanyi6\\AgentBehavior.onnx",
+            "reward": 0.8104539034380154,
+            "creation_time": 1765043748.5600054,
+            "auxillary_file_paths": [
+                "results\\Sanyi6\\AgentBehavior\\AgentBehavior-1000029.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.0+cpu"
+    }
+}
